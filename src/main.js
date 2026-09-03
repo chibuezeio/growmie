@@ -88,10 +88,32 @@ function initMotion() {
   const mm = gsap.matchMedia();
 
   mm.add("(prefers-reduced-motion: no-preference)", () => {
-    gsap.from(".hero-copy, .hero-stage", {
+    gsap.from(".hero-copy", {
       y: 18,
       duration: 0.75,
-      stagger: 0.1,
+      ease: "power2.out",
+      clearProps: "transform",
+    });
+
+    gsap.from(".hero-note", {
+      y: 28,
+      rotation: -16,
+      duration: 0.9,
+      ease: "power2.out",
+    });
+
+    gsap.from(".hero-phone", {
+      y: 36,
+      duration: 0.85,
+      delay: 0.08,
+      ease: "power2.out",
+      clearProps: "transform",
+    });
+
+    gsap.from(".syllabus", {
+      y: 18,
+      duration: 0.7,
+      delay: 0.16,
       ease: "power2.out",
       clearProps: "transform",
     });
