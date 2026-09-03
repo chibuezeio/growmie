@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About us — Growmie</title>
+    <meta
+      name="description"
+      content="Growmie is an EdTech platform that helps creators host live classes and monetize their knowledge, while learners discover new skills in real time."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <header class="nav nav-light">
+      <div class="nav-inner">
+        <a class="logo" href="index.html" aria-label="Growmie home">
+          <img class="logo-on-dark" src="images/logo.png" alt="" />
+          <img class="logo-on-light" src="images/growmie-logo.svg" alt="Growmie" />
+        </a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html#product">The app</a></li>
+            <li><a href="index.html#features">Why Growmie</a></li>
+            <li><a href="index.html#creators">For creators</a></li>
+            <li><a href="about.html" aria-current="page">About</a></li>
+          </ul>
+        </nav>
+        <a class="nav-cta" href="index.html#download">Get the app</a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="drawer">
+      <div class="drawer-panel">
+        <a href="index.html#product">The app</a>
+        <a href="index.html#features">Why Growmie</a>
+        <a href="index.html#creators">For creators</a>
+        <a href="about.html">About</a>
+        <a class="btn btn-light" href="index.html#download">Get the app</a>
+      </div>
+    </div>
+
+    <main>
+      <section class="page-hero">
+        <div class="wrap">
+          <p class="eyebrow">About us</p>
+          <h1>A live classroom that pays people for what they know.</h1>
+          <p class="lede">
+            Growmie is an EdTech platform from Growmie Software Limited. We help
+            creators, instructors, and experts monetize their knowledge by
+            hosting live classes — and we help learners find those rooms.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap about-story">
+          <p>
+            Whether you’re teaching a skill, sharing insights, or building a
+            learning community, Growmie gives you the tools to earn, engage,
+            and grow.
+          </p>
+          <p>
+            Flexible payments, affiliate rewards, class scheduling, and global
+            reach sit in one app. The idea is simple: make it easier for anyone,
+            anywhere, to teach and earn — and just as easy to show up as a
+            student.
+          </p>
+        </div>
+        <div class="wrap">
+          <div class="values">
+            <article class="value-card">
+              <h3>Inspire</h3>
+              <p>Open a live room and let someone else see what’s possible.</p>
+            </article>
+            <article class="value-card">
+              <h3>Ignite</h3>
+              <p>Turn expertise into a class, a schedule, and a paying audience.</p>
+            </article>
+            <article class="value-card">
+              <h3>Impact</h3>
+              <p>Grow with a community of learners and educators worldwide.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="download">
+        <div class="wrap">
+          <p class="eyebrow">Grow with Growmie</p>
+          <h2>Start as a learner or a creator today.</h2>
+          <p>Download the app, set up your account, and step into a live class.</p>
+          <div class="btn-row">
+            <a class="btn btn-light" data-store="android" target="_blank" rel="noreferrer">
+              <img src="images/google-play-logo.svg" alt="" />
+              Get on Android
+            </a>
+            <a class="btn btn-ghost" data-store="ios" target="_blank" rel="noreferrer">
+              <img src="images/apple-logo.svg" alt="" />
+              Get on iPhone
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a class="logo" href="index.html">
+              <img class="logo-on-dark" src="images/logo.png" alt="Growmie" />
+            </a>
+            <p>Learn. Teach. Earn. Growmie Software Limited.</p>
+          </div>
+          <div>
+            <h3>Company</h3>
+            <ul>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="mailto:support@growmieapp.com">support@growmieapp.com</a></li>
+              <li><a href="tel:+2348034236507">+234 803 423 6507</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Product</h3>
+            <ul>
+              <li><a href="index.html#product">The app</a></li>
+              <li><a href="index.html#download">Download</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms of use</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 Growmie Software Limited</span>
+          <span>Inspire. Ignite. Impact.</span>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
